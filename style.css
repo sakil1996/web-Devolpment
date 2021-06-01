@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 .name-highlite{
     color: orange;
@@ -14,4 +15,64 @@ body{
 }
 .half-width img{
     width: 100%;
+}
+.top-benar{
+    background-image: url(images/1/top-banner.png);
+    height: 500px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+}
+.link-buttom{
+    background-color: red;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(lightsalmon,tomato);
+}
+.drem-aria{
+    height: 400px;
+    width: auto;
+}
+.drem-aria{
+    background-image: url(images/1/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.footer-side{
+
+    height: 600px;
+    width: auto;
+    background-image: url(images/1/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.foter{
+    width: 43%;
+    float: right;
+    margin-top: 280px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 10px 50px 10px whitesmoke;
+    padding-left: 10px;
+    padding-bottom: 55px;
+}
+.foter p{
+    font-size: 20px;
+}
+.last-or{
+    box-shadow: 10px 30px 10px whitesmoke;
+
+}
+#full-stok{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightsalmon,tomato); 
+    border-image-slice: 1;
+}
+#full-stokk{
+    border-left: 7px solid;
+    border-image:linear-gradient( 180deg, blue, cyan); 
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
